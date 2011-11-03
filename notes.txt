@@ -1,0 +1,20 @@
+Static directory:
+1) public directory
+2) rails stack
+
+Flow goes from web browser to router to controller
+URL has model of classname/method
+This causes the controller to render a view and respond.
+
+This is the rails stack.
+
+We could make regular HTML files here, but we won't do that.
+
+Last time, we used "rails generate scaffold" to generate code for a rails resource, 
+following the REST configuration, generating an object, data relating to that object and uses a database.
+If scaffold, it is comprehensive.
+
+However, for this one, we don't really need the whole shebang. 
+
+Typically, there's a model and a database (model connected to db and connected to and from the controller,
+but due to the static web page deal, we really don't need it.
