@@ -1,1 +1,24 @@
 This project implements Chapter 3 of Ruby on Rails. Pay attention to me in order to get instruction.
+
+change to project directory or all is lost!
+rails new . -T
+git init
+git add .
+git commit -m "Initial Commit"
+replace Gemfile from github.com/cs4413/sample_app
+
+Create repository (directly or using git remote)
+git remote add rogiin git@github.com:nng/sample-app1.git
+git push -u origin master
+
+bundle install
+(and possibly rake db:migrate)
+
+Start webserver in root directory of your project. 
+Suggestion: create terminal view and use command "rails server", then detach view. 
+URL for server: http://localhost:3000
+
+Do git add and git commit routine.
+
+
+
