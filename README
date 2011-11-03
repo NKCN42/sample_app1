@@ -20,5 +20,10 @@ URL for server: http://localhost:3000
 
 Do git add and git commit routine.
 
+Next step:
+bundle install
+rails generate controller Pages home contact
+
+
 
 
