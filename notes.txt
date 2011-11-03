@@ -21,4 +21,14 @@ but due to the static web page deal, we really don't need it).
 So, instead we just generate a controller.
 "rails generate controller Pages home contact"
 generates a controller named Pages with methods named home and contact
-As said earlier, this has the url of classname/method, meaning that localhost:3000/pages/home displays home.html.erb
+	As said earlier, this has the url of classname/method, 
+	meaning that localhost:3000/pages/home displays home.html.erb
+	
+Next thing we're doing is that we're going to write a test and run it. 
+Make the test fail and fix code. Run it again, get green then commit.
+
+"Commit" is a three stage process
+git add . -stages the changes for commit
+git commit -m "Message" -unifies changes and changes the local git file.
+git push -u origin master -changes remote repository
+

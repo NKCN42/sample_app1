@@ -24,6 +24,14 @@ Next step:
 bundle install
 rails generate controller Pages home contact
 
+Removing all spec/views
+git rm -r spec/views
+git rm -r spec/helpers
+
+to run tests, use
+rspec /spec
+
+If rspec not installed, use rails generate rspec install
 
 
 
