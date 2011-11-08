@@ -32,3 +32,4 @@ git add . -stages the changes for commit
 git commit -m "Message" -unifies changes and changes the local git file.
 git push -u origin master -changes remote repository
 
+According to the book, you want to remove some elements.
